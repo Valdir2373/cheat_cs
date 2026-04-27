@@ -1,0 +1,1 @@
+ g++ -std=c++17 cheat_suite.cpp -o cheat_suite_g++.exe -luser32 -static -static-libgcc -static-libstdc++
