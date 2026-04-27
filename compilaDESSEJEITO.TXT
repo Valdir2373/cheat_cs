@@ -1,1 +1,8 @@
  g++ -std=c++17 cheat_suite.cpp -o cheat_suite_g++.exe -luser32 -static -static-libgcc -static-libstdc++
+
+REM App Principal - Cheat Loader
+g++ -std=c++17 cheat_loader.cpp -o cheat_loader_g++.exe -luser32 -static -static-libgcc -static-libstdc++
+
+REM Novos cheats
+g++ -std=c++17 silent_aimbot.cpp -o silent_aimbot_g++.exe -luser32 -static -static-libgcc -static-libstdc++
+g++ -std=c++17 module_explorer.cpp -o module_explorer_g++.exe -luser32 -static -static-libgcc -static-libstdc++

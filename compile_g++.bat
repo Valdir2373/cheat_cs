@@ -34,6 +34,8 @@ call :compile_file "advanced_cheat.cpp" "advanced_cheat.exe"
 call :compile_file "cheat_suite.cpp" "cheat_suite.exe"
 call :compile_file "triggerbot_advanced.cpp" "triggerbot_advanced.exe"
 call :compile_file "norecoil_cheat.cpp" "norecoil_cheat.exe"
+call :compile_file "silent_aimbot.cpp" "silent_aimbot.exe"
+call :compile_file "module_explorer.cpp" "module_explorer.exe"
 
 echo.
 echo [+] Compilation complete!
@@ -48,6 +50,8 @@ echo     advanced_cheat.exe - Multi-threaded cheats (ESP, Aimbot, etc.)
 echo     cheat_suite.exe - OOP cheat suite with menu
 echo     triggerbot_advanced.exe - Advanced triggerbot
 echo     norecoil_cheat.exe - No-recoil system
+echo     silent_aimbot.exe - Silent aimbot without visible aiming
+echo     module_explorer.exe - List CS2 loaded DLLs and module bases
 echo.
 echo [+] Run any .exe file to start the corresponding cheat
 echo [+] Make sure CS2 is running before starting cheats

@@ -68,6 +68,18 @@ if "%choice%"=="8" (
     goto check_result
 )
 
+if "%choice%"=="9" (
+    echo [+] Compilando Silent Aimbot...
+    g++ -std=c++17 silent_aimbot.cpp -o silent_aimbot_g++.exe -luser32 -static -static-libgcc -static-libstdc++
+    goto check_result
+)
+
+if "%choice%"=="10" (
+    echo [+] Compilando Module Explorer...
+    g++ -std=c++17 module_explorer.cpp -o module_explorer_g++.exe -luser32 -static -static-libgcc -static-libstdc++
+    goto check_result
+)
+
 echo [-] Opcao invalida!
 goto menu
 
@@ -93,5 +105,7 @@ echo 5. Advanced Cheat (advanced_cheat.cpp)
 echo 6. Cheat Suite (cheat_suite.cpp)
 echo 7. Triggerbot Advanced (triggerbot_advanced.cpp)
 echo 8. No-Recoil (norecoil_cheat.cpp)
+echo 9. Silent Aimbot (silent_aimbot.cpp)
+echo 10. Module Explorer (module_explorer.cpp)
 echo.
 goto menu
